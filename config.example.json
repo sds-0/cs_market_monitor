@@ -1,0 +1,49 @@
+{
+  "_note": "Copy this file to config.json and replace the placeholder values with your own account data.",
+  "platform": "youpin",
+  "market_api": "homepage_market",
+  "auth": {
+    "_auth_note": "Copy these headers from the request to /api/homepage/pc/goods/market/queryOnSaleCommodityList.",
+    "authorization": "REPLACE_WITH_YOUR_AUTHORIZATION",
+    "deviceid": "REPLACE_WITH_YOUR_DEVICEID",
+    "deviceuk": "REPLACE_WITH_YOUR_DEVICEUK",
+    "uk": "REPLACE_WITH_YOUR_UK",
+    "app_version": "5.26.0",
+    "apptype": "1",
+    "appversion": "5.26.0",
+    "secret_v": "h5_v1",
+    "cookie_header": "",
+    "login_url": "https://www.youpin898.com/",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "extra_headers": {
+      "platform": "pc",
+      "Referer": "https://www.youpin898.com/market/goods-list?listType=10&templateId=3742&gameId=730"
+    }
+  },
+  "check_interval_seconds": 300,
+  "request_pause_seconds": 3,
+  "request_timeout_seconds": 15,
+  "notification_cooldown_minutes": 30,
+  "actions": {
+    "open_market_url": true,
+    "open_price_trend_url": true,
+    "open_login_url_on_auth_error": true,
+    "copy_target_price": true,
+    "export_signal": true
+  },
+  "items": [
+    {
+      "display_name": "Tec-9 | Bone Mask",
+      "market_api": "homepage_market",
+      "template_id": 3742,
+      "game_id": 730,
+      "list_type": 10,
+      "page_index": 1,
+      "page_size": 80,
+      "sort_type_key": "Id",
+      "detail_url": "https://www.youpin898.com/market/goods-list?listType=10&templateId=3742&gameId=730",
+      "price_trend_url": "https://www.youpin898.com/market/goods-list?listType=price&templateId=3742&gameId=730",
+      "sell_above": 450
+    }
+  ]
+}
