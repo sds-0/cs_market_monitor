@@ -1,0 +1,14 @@
+.venv/
+pip/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+config.json
+latest_signal.json
+price_log.csv
+signal_log.csv
+
+.DS_Store
+Thumbs.db
